@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, send_file
 from flaskext.mysql import MySQL
-from function import *
+from bd import *
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
